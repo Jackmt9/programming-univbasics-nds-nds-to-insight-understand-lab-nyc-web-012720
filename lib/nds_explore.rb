@@ -12,4 +12,5 @@ end
 def print_first_directors_movie_titles
   directors_database.each |array|
     puts array[0]
+  end
 end
