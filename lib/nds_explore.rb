@@ -10,7 +10,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  directors_database.each do |array|
-    print array
+  directors_database.each do |hash|
+    print hash
   end
 end
