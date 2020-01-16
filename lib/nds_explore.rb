@@ -11,6 +11,6 @@ end
 
 def print_first_directors_movie_titles
   directors_database.each do |hash|
-    puts hash[:movies][0]
+    puts hash[:movies][title]
   end
 end
